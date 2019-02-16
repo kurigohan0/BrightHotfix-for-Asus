@@ -23,7 +23,6 @@ namespace BrightHotfix
 
             timer.Interval = new TimeSpan(0, 0, 2);
             timer.Tick += new EventHandler(timer_tick);
-            
         }
 
         void ShowTrayIcon(bool show)
